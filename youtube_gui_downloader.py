@@ -152,6 +152,8 @@ status_text = tk.Text(app, height=12, width=70)
 status_text.pack(pady=5)
 
 # Save folder info
-tk.Label(app, text=f"📁 All videos saved to:\n{SAVE_FOLDER}", fg="gray").pack(pady=5)
+tk.Label(app, text=f"📁 All videos saved to:\n{SAVE_FOLDER}",
+         fg="black", font=("Segoe UI", 10, "bold")).pack(pady=5)
+
 
 app.mainloop()
